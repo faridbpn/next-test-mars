@@ -156,7 +156,9 @@ const Header = () => {
             </Link>
 
             <Link
-              href="#courses"
+              href="https://wa.me/6288228149133?text=infokan%20farid%20sudah%20bisa%20next"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
               Free Trial
