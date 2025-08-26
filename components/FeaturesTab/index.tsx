@@ -6,8 +6,8 @@ const VisiMisi = () => {
     <>
       <section className="py-20 lg:py-25 xl:py-30">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-            <div className="animate_left md:w-1/2">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:gap-8 xl:gap-32.5">
+            <div className="animate_left w-full lg:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
                 Visi & Misi
               </h4>
@@ -25,11 +25,11 @@ const VisiMisi = () => {
               <div className="mt-10">
                 <a
                   href="#about"
-                  className="inline-flex items-center gap-2.5 rounded-full bg-black px-7.5 py-3 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
+                  className="group inline-flex items-center gap-2.5 rounded-full bg-black px-7.5 py-3 text-white duration-300 ease-in-out hover:bg-blackho hover:scale-105 transform transition-all dark:bg-btndark dark:hover:bg-blackho shadow-lg hover:shadow-xl"
                 >
                   Tentang Kami
                   <svg
-                    className="fill-current"
+                    className="fill-current transform transition-transform group-hover:translate-x-1"
                     width="14"
                     height="14"
                     viewBox="0 0 14 14"
@@ -45,22 +45,18 @@ const VisiMisi = () => {
               </div>
             </div>
 
-            <div className="animate_right md:w-1/2">
-              <div className="relative 2xl:-mr-7.5">
-                <Image
-                  src="/images/features/features-light-01.png"
-                  alt="Visi Misi"
-                  className="shadow-solid-l dark:hidden"
-                  width={570}
-                  height={691}
-                />
-                <Image
-                  src="/images/features/features-light-01.png"
-                  alt="Visi Misi"
-                  className="hidden shadow-solid-l dark:block"
-                  width={570}
-                  height={691}
-                />
+            <div className="animate_right w-full lg:w-1/2 mt-10 lg:mt-0">
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg blur-xl opacity-75 animate-pulse"></div>
+                <div className="relative bg-white dark:bg-blacksection rounded-lg p-4 shadow-2xl">
+                  <Image
+                    src="/images/features/features-light-01.png"
+                    alt="Visi Misi"
+                    className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                    width={570}
+                    height={691}
+                  />
+                </div>
               </div>
             </div>
           </div>
