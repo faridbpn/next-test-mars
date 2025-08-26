@@ -24,7 +24,7 @@ const KenapaMemilihMARS = () => {
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4 transform transition-all duration-300 hover:scale-105">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all duration-300 px-3 py-3">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
@@ -40,9 +40,9 @@ const KenapaMemilihMARS = () => {
                 </div>
 
                 <div className="flex items-start gap-4 transform transition-all duration-300 hover:scale-105">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all duration-300">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all duration-300 px-3 py-3">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
@@ -50,15 +50,15 @@ const KenapaMemilihMARS = () => {
                       Metode Belajar Sambil Bermain
                     </h3>
                     <p className="text-body-color dark:text-body-color-dark">
-                      Pendekatan pembelajaran yang menyenangkan dengan game dan proyek interaktif, membuat coding menjadi kegiatan yang menarik.
+                      Pendekatan pembelajaran yang menyenangkan dengan game dan proyek interaktif, membuat coding menjadi kegiatan yang menarik.  
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 transform transition-all duration-300 hover:scale-105">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all duration-300">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all duration-300 px-3 py-3">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
