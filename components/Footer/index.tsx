@@ -32,21 +32,22 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/brand/mars.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/brand/mars.svg"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Our highly skilled development & tutor teams
+                specialized in programming.
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -56,7 +57,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  marscodingsidoarjo@gmail.com
                 </a>
               </motion.div>
 
@@ -301,7 +302,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; Copyright @2022-2025 MARS Coding. All Rights Reserved.
               </p>
             </motion.div>
 
@@ -324,7 +325,7 @@ const Footer = () => {
               className="animate_top"
             >
               <ul className="flex items-center gap-5">
-                <li>
+                {/* <li>
                   <a href="#" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
@@ -395,7 +396,7 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#" aria-label="social icon">
                     <svg

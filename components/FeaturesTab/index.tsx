@@ -50,7 +50,7 @@ const VisiMisi = () => {
                 <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg blur-xl opacity-75 animate-pulse"></div>
                 <div className="relative bg-white dark:bg-blacksection rounded-lg p-4 shadow-2xl">
                   <Image
-                    src="/images/features/features-light-01.png"
+                    src="/images/hero/hero2.svg"
                     alt="Visi Misi"
                     className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                     width={570}

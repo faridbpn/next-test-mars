@@ -99,13 +99,13 @@ const Hero = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-lg blur-xl opacity-75 animate-pulse"></div>
                   <Image
                     className="shadow-solid-l dark:hidden relative z-10 hover:scale-105 transition-transform duration-300"
-                    src="/images/hero/hero-light.svg"
+                    src="/images/hero/hero.svg"
                     alt="Hero"
                     fill
                   />
                   <Image
                     className="hidden shadow-solid-l dark:block relative z-10 hover:scale-105 transition-transform duration-300"
-                    src="/images/hero/hero-dark.svg"
+                    src="/images/hero/hero.svg"
                     alt="Hero"
                     fill
                   />

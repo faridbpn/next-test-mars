@@ -78,7 +78,7 @@ const KenapaMemilihMARS = () => {
                 <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-lg blur-xl opacity-75 animate-pulse"></div>
                 <div className="relative bg-white dark:bg-blacksection rounded-lg p-4 shadow-2xl">
                   <Image
-                    src="/images/about/about-light-01.png"
+                    src="/images/hero/hero.svg"
                     alt="About"
                     className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                     width={570}

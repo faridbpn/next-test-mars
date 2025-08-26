@@ -38,12 +38,13 @@ const Header = () => {
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/" className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white font-bold text-xl">
-              M
-            </div>
-            <span className="text-xl font-bold text-black dark:text-white">
-              MARS Coding
-            </span>
+          <Image
+              src="/images/brand/mars.svg"
+              alt="MARS Coding Logo"
+              width={110}
+              height={80}
+              className="h-10 w-10"
+            />
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
