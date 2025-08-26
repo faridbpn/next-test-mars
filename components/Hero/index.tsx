@@ -54,7 +54,7 @@ const Hero = () => {
                     />
                     <button
                       aria-label="search button"
-                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho transform hover:scale-105 hover:shadow-xl transition-all"
+                      className="flex rounded-full bg-primary px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho transform hover:scale-105 hover:shadow-xl transition-all"
                     >
                       Cari Produk
                     </button>

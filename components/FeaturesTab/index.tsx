@@ -25,7 +25,7 @@ const VisiMisi = () => {
               <div className="mt-10">
                 <a
                   href="#about"
-                  className="group inline-flex items-center gap-2.5 rounded-full bg-black px-7.5 py-3 text-white duration-300 ease-in-out hover:bg-blackho hover:scale-105 transform transition-all dark:bg-btndark dark:hover:bg-blackho shadow-lg hover:shadow-xl"
+                  className="group inline-flex items-center gap-2.5 rounded-full bg-primary px-7.5 py-3 text-white duration-300 ease-in-out hover:bg-blackho hover:scale-105 transform transition-all dark:bg-btndark dark:hover:bg-blackho shadow-lg hover:shadow-xl"
                 >
                   Tentang Kami
                   <svg

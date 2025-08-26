@@ -76,7 +76,7 @@ const JenisKursus = () => {
                     ))}
                   </ul>
                   
-                  <button className="w-full rounded-full bg-black px-7.5 py-3 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho">
+                  <button className="w-full rounded-full bg-primary px-7.5 py-3 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho">
                     Daftar Sekarang
                   </button>
                 </div>
